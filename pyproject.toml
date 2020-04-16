@@ -4,6 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["Eyal Levin <eyalev@gmail.com>"]
 
+[tool.poetry.scripts]
+eyalev-python-hello = "eyalev_python_hello.main:main"
+
 [tool.poetry.dependencies]
 python = "^3.6"
 
